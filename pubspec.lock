@@ -70,6 +70,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
+  flutter_naver_map:
+    dependency: "direct main"
+    description:
+      name: flutter_naver_map
+      sha256: "872ead5ee595c85df0f27d134eafcbc6e5928e22c2ef9e7d1378165440ab955d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.10.5"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -115,14 +123,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.0"
-  naver_map_plugin:
-    dependency: "direct main"
-    description:
-      name: naver_map_plugin
-      sha256: fb5443bec21585a82a3bc88f6bb53561672a3178a5cdd2ea772c35c8b80b35a6
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.9.6"
   path:
     dependency: transitive
     description:
@@ -193,5 +193,5 @@ packages:
     source: hosted
     version: "2.1.4"
 sdks:
-  dart: ">=2.19.0-254.0.dev <3.0.0"
-  flutter: ">=1.11.0"
+  dart: ">=2.19.0-254.0.dev <4.0.0"
+  flutter: ">=2.0.0"
